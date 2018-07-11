@@ -12,11 +12,35 @@ catholicApp.config(function ($routeProvider) {
         //controller: 'homeController'
     })
     
+    .when('/', {
+        templateUrl: 'app/modules/views/blog.html'
+        //controller: 'homeController'
+    })
+
+    .when('/', {
+        templateUrl: 'app/modules/views/contact.html'
+        //controller: 'homeController'
+    })
+
+    .when('/', {
+        templateUrl: 'app/modules/views/elements.html'
+        //controller: 'homeController'
+    })
+
+    .when('/', {
+        templateUrl: 'app/modules/views/ministries.html'
+        //controller: 'homeController'
+    })
+
+    .when('/', {
+        templateUrl: 'app/modules/views/sermons.html'
+        //controller: 'homeController'
+    })
 });
 
 
 // CONTROLLERS
- catholicApp.controller('homeController', ['$scope', function($scope) {
+ catholicApp.controller('homeController',  ['$scope', function($scope) {
     
  }]);
 
