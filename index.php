@@ -1,5 +1,61 @@
-  <!-- ##### Hero Area Start ##### -->
-  <section class="hero-area">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Faith - Church Template | Home</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- ##### Search Wrapper Start ##### -->
+    <div class="search-wrapper d-flex align-items-center justify-content-center bg-img foo-bg-overlay" style="background-image: url(img/bg-img/bg-2.jpg);">
+       <div class="close--icon">
+           <i class="fa fa-times"></i>
+       </div>
+        <!-- Logo -->
+        <a href="index.html" class="search-logo"><img src="img/core-img/logo2.png" alt=""></a>
+        <!-- Search Form -->
+        <div class="search-form">
+            <form action="#" method="get">
+                <input type="search" name="search" id="search" placeholder="Enter Your Keywords">
+                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <!-- Copwrite Text -->
+        <div class="copywrite-text">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+    </div>
+    <!-- ##### Search Wrapper End ##### -->
+
+    <!-- ##### Preloader ##### -->
+    <div id="preloader">
+        <div class="circle">
+            <img src="img/core-img/church.png" alt="">
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <?php include('header.php'); ?>
+    <!-- ##### Header Area Start ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
         <div class="hero-slides owl-carousel">
             <!-- Single Hero Slide -->
             <div class="single-hero-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg-2.jpg);">
@@ -505,3 +561,28 @@
         </div>
     </div>
     <!-- ##### Blog Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <?php include('footer.php'); ?>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <script src="js/plugins/audioplayer.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <!-- <script src="js/jquery/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
